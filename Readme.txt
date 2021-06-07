@@ -1,6 +1,4 @@
-This repository contains the Matlab implementations of the (sigma-point) iterated posterior linearisation filter (IPLF) with direction-of-arrival (DOA) measurements with von Mises-Fisher distribution [1] and Kent distribution [2]. 
-
-The DOA measurement data for both filters can be chosen to be Kent or Gaussian distributed. 
+This repository contains the Matlab implementations of the (sigma-point) iterated posterior linearisation filter (IPLF) with direction-of-arrival (DOA) measurements. The filter consisders von Mises-Fisher DOA measurements [1] and Kent DOA measurements [2]. The filters obtain a Gaussian approximation of the posterior based on iterated statistical linear regressions in the update step. In the code, the DOA measurement data for both filters can be chosen to be Kent or Gaussian distributed. 
 
 
 This repository makes use of the 3D-Directional-SSV package to sample the Kent distribution: 
@@ -15,6 +13,6 @@ References
 
 [2] A. F. García-Fernández, S. Maskell, P. Horridge, J. Ralph, “Gaussian tracking with Kent-distributed direction-of-arrival measurements,” IEEE Transactions on Vehicular Technology, 2021.
 
-[3]Á. F. García-Fernández, L. Svensson, M. R. Morelande and S. Särkkä, "Posterior Linearization Filter: Principles and Implementation Using Sigma Points," in IEEE Transactions on Signal Processing, vol. 63, no. 20, pp. 5561-5573, Oct.15, 2015
+[3] Á. F. García-Fernández, L. Svensson, M. R. Morelande and S. Särkkä, "Posterior Linearization Filter: Principles and Implementation Using Sigma Points," in IEEE Transactions on Signal Processing, vol. 63, no. 20, pp. 5561-5573, Oct.15, 2015
 
-[4]F. Tronarp, Á. F. García-Fernández and S. Särkkä, "Iterative Filtering and Smoothing in Nonlinear and Non-Gaussian Systems Using Conditional Moments," in IEEE Signal Processing Letters, vol. 25, no. 3, pp. 408-412, March 2018
+[4] F. Tronarp, Á. F. García-Fernández and S. Särkkä, "Iterative Filtering and Smoothing in Nonlinear and Non-Gaussian Systems Using Conditional Moments," in IEEE Signal Processing Letters, vol. 25, no. 3, pp. 408-412, March 2018
