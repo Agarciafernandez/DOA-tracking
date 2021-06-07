@@ -7,6 +7,11 @@ https://github.com/TerdikGyorgy/3D-Simulation-Visualization.
 
 The explanation of the IPLF can be found in [3]-[4]. The work [2] was developed as part of the DSTL Grant no. 1000143726.
 
+
+- IPLF_3D_VMF_filter.m runs the IPLF with VMF DOA measurements.
+
+- IPLF_3D_Kent_filter.m runs the IPLF with Kent DOA measurements.
+
 References
 
 [1] Á. F. García-Fernández, F. Tronarp and S. Särkkä, "Gaussian Target Tracking With Direction-of-Arrival von Mises–Fisher Measurements," in IEEE Transactions on Signal Processing, vol. 67, no. 11, pp. 2960-2972, 1 June1, 2019
