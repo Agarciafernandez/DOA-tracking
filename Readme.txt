@@ -1,4 +1,4 @@
-This repository contains the Matlab implementations of the (sigma-point) iterated posterior linearisation filter (IPLF) with direction-of-arrival (DOA) measurements. The filter consisders von Mises-Fisher DOA measurements [1] and Kent DOA measurements [2]. The filters obtain a Gaussian approximation of the posterior based on iterated statistical linear regressions in the update step. In the code, the DOA measurement data for both filters can be chosen to be Kent or Gaussian distributed. 
+This repository contains the Matlab implementations of the (sigma-point) iterated posterior linearisation filter (IPLF) for single-target tracking with direction-of-arrival (DOA) measurements. The filter consisders von Mises-Fisher DOA measurements [1] and Kent DOA measurements [2]. The filters obtain a Gaussian approximation of the posterior based on iterated statistical linear regressions in the update step. In the code, the DOA measurement data for both filters can be chosen to be von Mises-Fixher/Kent or Gaussian distributed. 
 
 
 This repository makes use of the 3D-Directional-SSV package to sample the Kent distribution: 
@@ -8,16 +8,16 @@ https://github.com/TerdikGyorgy/3D-Simulation-Visualization.
 The explanation of the IPLF can be found in [3]-[4]. The work [2] was developed as part of the DSTL Grant no. 1000143726.
 
 
-- IPLF_3D_VMF_filter.m runs the IPLF with VMF DOA measurements.
+- IPLF_3D_VMF_filter.m runs the IPLF with von Mises Fisher DOA measurements.
 
 - IPLF_3D_Kent_filter.m runs the IPLF with Kent DOA measurements.
 
 References
 
-[1] ¡. F. GarcÌa-Fern·ndez, F. Tronarp and S. S‰rkk‰, "Gaussian Target Tracking With Direction-of-Arrival von MisesñFisher Measurements," in IEEE Transactions on Signal Processing, vol. 67, no. 11, pp. 2960-2972, 1 June1, 2019
+[1] √Å. F. Garc√≠a-Fern√°ndez, F. Tronarp and S. S√§rkk√§, "Gaussian Target Tracking With Direction-of-Arrival von Mises‚ÄìFisher Measurements," in IEEE Transactions on Signal Processing, vol. 67, no. 11, pp. 2960-2972, 1 June1, 2019
 
-[2] A. F. GarcÌa-Fern·ndez, S. Maskell, P. Horridge, J. Ralph, ìGaussian tracking with Kent-distributed direction-of-arrival measurements,î IEEE Transactions on Vehicular Technology, 2021.
+[2] A. F. Garc√≠a-Fern√°ndez, S. Maskell, P. Horridge, J. Ralph, ‚ÄúGaussian tracking with Kent-distributed direction-of-arrival measurements,‚Äù IEEE Transactions on Vehicular Technology, 2021.
 
-[3] ¡. F. GarcÌa-Fern·ndez, L. Svensson, M. R. Morelande and S. S‰rkk‰, "Posterior Linearization Filter: Principles and Implementation Using Sigma Points," in IEEE Transactions on Signal Processing, vol. 63, no. 20, pp. 5561-5573, Oct.15, 2015
+[3] √Å. F. Garc√≠a-Fern√°ndez, L. Svensson, M. R. Morelande and S. S√§rkk√§, "Posterior Linearization Filter: Principles and Implementation Using Sigma Points," in IEEE Transactions on Signal Processing, vol. 63, no. 20, pp. 5561-5573, Oct.15, 2015
 
-[4] F. Tronarp, ¡. F. GarcÌa-Fern·ndez and S. S‰rkk‰, "Iterative Filtering and Smoothing in Nonlinear and Non-Gaussian Systems Using Conditional Moments," in IEEE Signal Processing Letters, vol. 25, no. 3, pp. 408-412, March 2018
+[4] F. Tronarp, √Å. F. Garc√≠a-Fern√°ndez and S. S√§rkk√§, "Iterative Filtering and Smoothing in Nonlinear and Non-Gaussian Systems Using Conditional Moments," in IEEE Signal Processing Letters, vol. 25, no. 3, pp. 408-412, March 2018
